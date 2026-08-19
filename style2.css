@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(247, 240, 230);
+    color: #331F19;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+
+header {
+    background-color: #3b4f07;
+    color: #F4F0EA;
+    padding-bottom: 1.5rem;
+}
+
+h1 {
+    padding: 2rem;
+    text-align: center;
+    color: #F4F0EA;
+}
+
+img {
+    width: 10rem;
+    border-radius: 5px;
+}
+
+figure {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 2rem;
+    color: #F4F0EA;
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+h2 {
+    color: #331F19;
+    font-size: 1.3rem;
+    margin-bottom: 0.3rem;
+}
+
+h3 {
+    color: #3b4f07;
+    margin-top: 0.5rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+ul {
+    margin-left: 1.5rem;
+}
+
+ul li {
+    padding: 0.2rem;
+}
+
+a {
+    text-decoration: underline;
+    color: #3b4f07;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ab6ac7;
+}
+
+.link-a {
+    color: #3b4f07;
+}
+
+footer {
+    background-color: #3b4f07;
+    padding: 2rem;
+    text-align: center;
+}
+
+.titulo-creditos {
+    color: #F4F0EA;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.paragrafo-footer {
+    color: #F4F0EA;
+}
+
+footer a {
+    text-decoration: underline;
+    color: #ab6ac7;
+}
